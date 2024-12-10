@@ -10,11 +10,8 @@ const validationRules = {
             "checkMessage"
         ],
         minLength: {
-            user_name: 3,
+            user_full_name: 3,
             user_password: 6
-        },
-        maxLength: {
-            user_phone: 10
         },
         regex: {
             user_email: /^[^\s@]+@[^\s@]+\.[^\s@]+$/

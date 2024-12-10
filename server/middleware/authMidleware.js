@@ -1,8 +1,9 @@
-const { validationRules }= require("../utils/validation/validationRules");
+const { validationRules } = require("../utils/validation/validationRules");
 const { validateFields } = require("../utils/validation/validate");
 const { VerifiedToken } = require("../utils/authHelpers");
 const { getTokenFromHeaders } = require("../utils/jwt/getToken");
 const logger = require("../utils/logger");
+const { Console } = require("winston/lib/winston/transports");
 
 async function validateRegister(req, res, next) {
     const userRegist = req.body;

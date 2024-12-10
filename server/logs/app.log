@@ -150,3 +150,49 @@ Use mongoose.model(name, schema)
 [2024-12-08 11:12:23] INFO: Successfull checking data to update board
 [2024-12-08 11:13:45] INFO: Successfull checking data to delete board
 [2024-12-08 11:19:17] INFO: MongoDB connected: ac-chuuyli-shard-00-01.wrul1io.mongodb.net
+[2024-12-09 09:33:58] ERROR: Attempt 1: Failed to connect to MongoDB - Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+[2024-12-09 09:34:03] ERROR: Attempt 2: Failed to connect to MongoDB - Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+[2024-12-09 09:34:08] ERROR: Attempt 3: Failed to connect to MongoDB - Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+[2024-12-09 09:34:13] ERROR: Attempt 4: Failed to connect to MongoDB - Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+[2024-12-09 09:34:18] ERROR: Attempt 5: Failed to connect to MongoDB - Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+[2024-12-09 09:35:01] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-09 09:41:46] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-09 09:41:49] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-09 10:28:42] INFO: Error checking data register new user: user_full_name is required.
+[2024-12-09 10:29:12] INFO: Error checking data register new user: user_full_name is required.
+[2024-12-09 10:29:25] INFO: Error checking data register new user: user_full_name is required.
+[2024-12-09 10:30:02] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-09 10:30:07] INFO: Error checking data register new user: user_full_name is required.
+[2024-12-09 10:30:47] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-09 10:30:52] INFO: Error checking data register new user: user_full_name is required.
+[2024-12-09 10:31:12] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-09 10:31:17] INFO: Error checking data register new user: user_full_name is required.
+[2024-12-09 10:38:55] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-09 10:39:09] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-09 10:39:12] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-09 10:39:15] INFO: Error checking data register new user: user_full_name is required.
+[2024-12-09 10:39:31] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-09 10:39:37] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-09 10:39:40] INFO: Error checking data register new user: user_full_name is required.
+[2024-12-09 10:40:00] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-09 10:40:23] INFO: Error checking data register new user: user_full_name is required.
+[2024-12-09 10:40:45] INFO: Error checking data register new user: user_full_name is required.
+[2024-12-09 10:41:20] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-09 10:41:41] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-09 10:43:17] INFO: Error checking data register new user: user_full_name is required.
+[2024-12-09 10:44:35] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-09 10:44:39] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-09 10:44:41] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-09 10:44:44] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-09 10:44:50] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-09 10:44:52] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-09 10:44:56] INFO: Error checking data register new user: user_full_name is required.
+[2024-12-09 10:48:07] INFO: Error checking data register new user: user_full_name is required.
+[2024-12-09 10:48:13] INFO: Successfull checking data register new user
+[2024-12-09 10:48:13] INFO: Hash password complete
+[2024-12-09 10:48:13] INFO: Complete create token
+[2024-12-09 10:49:19] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-09 10:53:37] INFO: Error checking data register new user: user_avatar_url is required.
+[2024-12-09 10:56:22] INFO: Successfull checking data register new user
+[2024-12-09 10:56:22] INFO: Hash password complete
+[2024-12-09 10:56:22] INFO: Complete create token

@@ -14,3 +14,8 @@ Use mongoose.model(name, schema)
 [2024-12-08 11:08:02] ERROR: Error with UpdateBoard: TypeError: updatedBoard.populate(...).populate is not a function
 [2024-12-08 11:11:18] ERROR: Error with UpdateBoard: TypeError: updatedBoard.populate(...).populate is not a function
 [2024-12-08 11:11:49] ERROR: Error with UpdateBoard: TypeError: updatedBoard.populate(...).populate is not a function
+[2024-12-09 09:33:58] ERROR: Attempt 1: Failed to connect to MongoDB - Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+[2024-12-09 09:34:03] ERROR: Attempt 2: Failed to connect to MongoDB - Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+[2024-12-09 09:34:08] ERROR: Attempt 3: Failed to connect to MongoDB - Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+[2024-12-09 09:34:13] ERROR: Attempt 4: Failed to connect to MongoDB - Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+[2024-12-09 09:34:18] ERROR: Attempt 5: Failed to connect to MongoDB - Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
