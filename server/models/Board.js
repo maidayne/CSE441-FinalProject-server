@@ -52,6 +52,12 @@ const BoardSchema = new Schema({
   updated_at: {
     type: Date,
   },
+  isCompleted: {
+    type: Boolean,
+    default: false,
+  }
 });
+
+
 
 module.exports = mongoose.model("Board", BoardSchema);

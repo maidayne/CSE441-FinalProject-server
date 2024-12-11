@@ -21,6 +21,9 @@ const validationRules = {
         checkMessage: "Login to account",
         requiredFields: ["user_email", "user_password", "checkMessage"]
     },
+
+
+    //change password
     changePassword: {
         checkMessage: "Change password",
         requiredFields: [
@@ -41,26 +44,12 @@ const validationRules = {
     updateUser: {
         checkMessage: "Update user info"
     },
-    //   getUserProfile
-    // updateUser
-    // uploadProfilePicture
-    // getAllUserInBoard
-    // addUserToBoard
-    // removeUserFromBoard
-    // updateUserRoleInBoard
-    // assignUserToCard
-    // removeUserToCard
-    // getUserCards
-    // searchUsers
-    // suggestUsersToAdd
-    // updateNotificationsSettings
-    // getUserNotifications
-    // creatWorkGroup(đang xem xét)
 
     inviteUserToBoardByEmail: {
         checkMessage: "Invite user to board by email",
         requiredFields: ["board_id", "user_email", "checkMessage"]
     },
+    
     // Board middleware validate
     createBoard: {
         checkMessage: "Create new board",
@@ -87,24 +76,7 @@ const validationRules = {
     deleteBoard: {
         checkMessage: "Delete board",
         requiredFields: ["board_id"]
-    }
-    //   createBoard
-    // getBoard
-    // updateBoard
-    // deleteBoard
-    // addMemberToBoard
-    // removeMemberFromBoard
-    // updateMemberRole
-    // getAllMembers
-    // updatePrivacy
-    // checkUserAccess
-    // getListsInBoard
-    // addListToBoard
-    // moveList
-    // getCardsInBoard
-    // archiveCard
-    // updateBoardSetting
-    // assignLabelsToBoard
+    },
 };
 
 module.exports = { validationRules };

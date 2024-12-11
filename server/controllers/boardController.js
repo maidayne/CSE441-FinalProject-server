@@ -25,7 +25,8 @@ async function CreateBoard(req, res) {
         const newBoard = await board.save();
         user.boards.push({ board_id: newBoard._id, role: "ADMIN" });
         await user.save();
-
+        logger.info("created new board successfully");
+        
         return sendSuccess(res, "Create board success", newBoard._id);
     } catch (error) {
         logger.error(`Error with create board : ${error}`);
@@ -129,7 +130,8 @@ async function UpdateBoard(req, res) {
             "board_description",
             "board_is_public",
             "board_collaborators",
-            "board_lists"
+            "board_lists",
+            "isCompleted"
         ];
 
         // Cập nhật các trường hợp lệ
