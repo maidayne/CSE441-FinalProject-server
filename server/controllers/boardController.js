@@ -204,7 +204,7 @@ async function DeleteBoard(req, res) {
 
 async function GetAllBoardByUserId(req, res) {
     try {
-        const { user_id } = req.body;   
+        const { user_id } = req.body;
         const boards = await Board.find({ created_by: user_id });
         logger.info(`Boards get successfully`);
         return sendSuccess(res, "Get all boards by user id success", boards);
@@ -214,4 +214,26 @@ async function GetAllBoardByUserId(req, res) {
     }
 }
 
-module.exports = { CreateBoard, GetBoard, UpdateBoard, DeleteBoard, GetAllBoardByUserId };
+async function GetAllCompleteBoardByUserId(req, res) {
+    try {
+        const { user_id } = req.body;
+        const boards = await Board.find({
+            created_by: user_id,
+            isCompleted: true
+        });
+        logger.info(`Boards get successfully`);
+        return sendSuccess(res, "Get all complete boards by user id success ", boards);
+    } catch (error) {
+        logger.error(`Error with GetAllCompleteBoardByUserId: ${error}`);
+        return sendError(res, 500, "Internal Server Error", { details: error });
+    }
+}
+
+module.exports = {
+    CreateBoard,
+    GetBoard,
+    UpdateBoard,
+    DeleteBoard,
+    GetAllBoardByUserId,
+    GetAllCompleteBoardByUserId
+};

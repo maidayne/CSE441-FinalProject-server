@@ -22,7 +22,6 @@ const validationRules = {
         requiredFields: ["user_email", "user_password", "checkMessage"]
     },
 
-
     //change password
     changePassword: {
         checkMessage: "Change password",
@@ -84,15 +83,20 @@ const validationRules = {
         requiredFields: ["user_id", "checkMessage"]
     },
 
+    getBoardCompleteByUserId: {
+        checkMessage: "Get board complete by user id",
+        requiredFields: ["user_id", "checkMessage"]
+    },
+
     // User middle validate
     getUserProfile: {
         checkMessage: "Get user profile",
-        requiredFields: ["user_id", "checkMessage"],
+        requiredFields: ["user_id", "checkMessage"]
     },
     updateUserProfile: {
         checkMessage: "Update user info",
-        requiredFields: ["user_id", "user_update_details"],
-    },
+        requiredFields: ["user_id", "user_update_details"]
+    }
 };
 
 module.exports = { validationRules };

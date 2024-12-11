@@ -4,14 +4,16 @@ const {
     validateGetBoard,
     validateUpdateBoard,
     validateDeleteBoard,
-    validateGetBoardsByUserId
+    validateGetBoardsByUserId,
+    validateGetCompleteBoardsByUserId
 } = require("../middleware/boardMiddleware");
 const {
     CreateBoard,
     GetBoard,
     UpdateBoard,
     DeleteBoard,
-    GetAllBoardByUserId
+    GetAllBoardByUserId,
+    GetAllCompleteBoardByUserId
 } = require("../controllers/boardController");
 
 const boardRouter = express.Router();
@@ -21,5 +23,6 @@ boardRouter.post("/getBoard", validateGetBoard, GetBoard);
 boardRouter.post("/updateBoard", validateUpdateBoard, UpdateBoard);
 boardRouter.post("/deleteBoard", validateDeleteBoard, DeleteBoard);
 boardRouter.post("/getBoardsByUserId", validateGetBoardsByUserId, GetAllBoardByUserId);
+boardRouter.post("/getCompleteBoardsByUserId", validateGetCompleteBoardsByUserId, GetAllCompleteBoardByUserId);
 
 module.exports = boardRouter;
