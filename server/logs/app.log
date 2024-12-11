@@ -452,3 +452,341 @@ Use mongoose.model(name, schema)
 [2024-12-11 14:48:24] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
 [2024-12-11 14:48:31] INFO: Successfull checking data to create board
 [2024-12-11 14:48:31] INFO: created new board successfully
+[2024-12-11 14:54:15] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 14:55:16] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 14:55:18] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 14:55:45] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 14:55:51] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 14:56:44] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 14:56:51] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 14:57:03] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 14:57:41] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 15:23:40] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 15:23:43] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 15:24:03] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 15:24:19] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 15:24:24] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 15:24:28] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 15:24:30] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 15:24:31] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 15:24:38] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 15:25:14] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 15:25:19] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 15:25:22] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 15:25:29] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 15:25:51] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 15:25:54] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 15:25:56] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 15:26:00] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 15:26:02] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 15:28:35] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 15:28:37] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 15:40:24] INFO: Successfull checking data user for login
+[2024-12-11 15:40:24] INFO: Compare hash complete
+[2024-12-11 15:40:24] INFO: Complete create token
+[2024-12-11 15:41:06] INFO: Successfull checking data user for login
+[2024-12-11 15:41:06] INFO: Compare hash complete
+[2024-12-11 15:41:06] INFO: Complete create token
+[2024-12-11 15:47:48] INFO: Successfull checking data user for login
+[2024-12-11 15:47:48] INFO: Compare hash complete
+[2024-12-11 15:47:48] INFO: Complete create token
+[2024-12-11 15:50:32] WARN: No token provided
+[2024-12-11 15:51:13] WARN: No token provided
+[2024-12-11 15:51:14] WARN: No token provided
+[2024-12-11 15:51:15] WARN: No token provided
+[2024-12-11 15:51:20] WARN: No token provided
+[2024-12-11 15:52:07] WARN: No token provided
+[2024-12-11 15:52:17] WARN: No token provided
+[2024-12-11 15:52:19] WARN: No token provided
+[2024-12-11 15:52:53] INFO: Successfull checking data user for login
+[2024-12-11 15:52:53] INFO: Compare hash complete
+[2024-12-11 15:52:53] INFO: Complete create token
+[2024-12-11 15:52:54] WARN: No token provided
+[2024-12-11 15:53:43] WARN: No token provided
+[2024-12-11 15:54:55] INFO: Error checking data checkMessage is required.
+[2024-12-11 15:55:19] INFO: Successfull checking data user for login
+[2024-12-11 15:55:19] INFO: Compare hash complete
+[2024-12-11 15:55:19] INFO: Complete create token
+[2024-12-11 15:55:20] INFO: Successfull checking data to get board by user id
+[2024-12-11 15:57:26] INFO: Successfull checking data user for login
+[2024-12-11 15:57:26] INFO: Compare hash complete
+[2024-12-11 15:57:26] INFO: Complete create token
+[2024-12-11 15:57:27] INFO: Successfull checking data to get board by user id
+[2024-12-11 15:58:49] INFO: Successfull checking data user for login
+[2024-12-11 15:58:49] INFO: Compare hash complete
+[2024-12-11 15:58:49] INFO: Complete create token
+[2024-12-11 15:58:50] INFO: Successfull checking data to get board by user id
+[2024-12-11 15:59:03] INFO: Successfull checking data to get board by user id
+[2024-12-11 15:59:06] INFO: Successfull checking data to get board by user id
+[2024-12-11 15:59:23] INFO: Successfull checking data to get board by user id
+[2024-12-11 15:59:45] INFO: Successfull checking data to get board by user id
+[2024-12-11 15:59:47] INFO: Successfull checking data to get board by user id
+[2024-12-11 15:59:52] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:00:03] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:00:15] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:00:16] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:00:53] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:00:56] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:00:59] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:01:06] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:01:10] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:01:22] INFO: Successfull checking data user for login
+[2024-12-11 16:01:22] INFO: Compare hash complete
+[2024-12-11 16:01:22] INFO: Complete create token
+[2024-12-11 16:01:23] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:01:40] INFO: Successfull checking data user for login
+[2024-12-11 16:01:40] INFO: Compare hash complete
+[2024-12-11 16:01:45] INFO: Successfull checking data user for login
+[2024-12-11 16:01:45] INFO: Compare hash complete
+[2024-12-11 16:01:45] INFO: Complete create token
+[2024-12-11 16:01:46] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:02:02] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:04:38] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:08:51] INFO: Successfull checking data to create board
+[2024-12-11 16:08:51] INFO: created new board successfully
+[2024-12-11 16:09:02] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:09:30] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:09:31] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:10:02] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:11:32] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 16:11:58] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 16:13:03] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 16:13:06] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 16:13:08] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 16:13:09] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 16:13:15] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 16:13:21] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:13:31] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 16:13:40] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 16:13:55] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 16:13:59] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:13:59] INFO: Boards get successfully
+[2024-12-11 16:14:08] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 16:14:10] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 16:14:12] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 16:14:16] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 16:14:56] WARN: No token provided
+[2024-12-11 16:14:56] WARN: No token provided
+[2024-12-11 16:15:09] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:15:09] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:15:09] INFO: Boards get successfully
+[2024-12-11 16:15:09] INFO: Boards get successfully
+[2024-12-11 16:15:15] INFO: Error checking data checkMessage is required.
+[2024-12-11 16:15:15] INFO: Error checking data checkMessage is required.
+[2024-12-11 16:15:18] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:15:18] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:15:18] INFO: Boards get successfully
+[2024-12-11 16:15:18] INFO: Boards get successfully
+[2024-12-11 16:30:22] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 16:31:05] INFO: Successfull checking data user for login
+[2024-12-11 16:31:05] INFO: Compare hash complete
+[2024-12-11 16:31:05] INFO: Complete create token
+[2024-12-11 16:31:06] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:31:06] INFO: Boards get successfully
+[2024-12-11 16:31:21] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 16:31:23] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 16:31:29] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 16:31:33] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 16:31:34] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 16:31:38] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:31:38] INFO: Boards get successfully
+[2024-12-11 16:31:52] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 16:31:53] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 16:31:57] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 16:32:38] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:32:38] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:32:38] INFO: Boards get successfully
+[2024-12-11 16:32:38] INFO: Boards get successfully
+[2024-12-11 16:34:00] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:34:00] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:34:00] INFO: Boards get successfully
+[2024-12-11 16:34:00] INFO: Boards get successfully
+[2024-12-11 16:34:10] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:34:10] INFO: Boards get successfully
+[2024-12-11 16:34:45] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:34:45] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:34:45] INFO: Boards get successfully
+[2024-12-11 16:34:45] INFO: Boards get successfully
+[2024-12-11 16:34:53] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:34:53] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:34:53] INFO: Boards get successfully
+[2024-12-11 16:34:53] INFO: Boards get successfully
+[2024-12-11 16:34:59] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:34:59] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:34:59] INFO: Boards get successfully
+[2024-12-11 16:34:59] INFO: Boards get successfully
+[2024-12-11 16:35:03] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:35:04] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:35:04] INFO: Boards get successfully
+[2024-12-11 16:35:04] INFO: Boards get successfully
+[2024-12-11 16:35:23] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:35:23] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:35:23] INFO: Boards get successfully
+[2024-12-11 16:35:23] INFO: Boards get successfully
+[2024-12-11 16:35:25] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:35:25] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:35:25] INFO: Boards get successfully
+[2024-12-11 16:35:25] INFO: Boards get successfully
+[2024-12-11 16:35:27] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:35:27] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:35:27] INFO: Boards get successfully
+[2024-12-11 16:35:27] INFO: Boards get successfully
+[2024-12-11 16:38:07] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 16:38:18] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:38:18] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:38:18] INFO: Boards get successfully
+[2024-12-11 16:38:18] INFO: Boards get successfully
+[2024-12-11 16:38:22] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:38:22] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:38:22] INFO: Boards get successfully
+[2024-12-11 16:38:22] INFO: Boards get successfully
+[2024-12-11 16:38:33] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:38:33] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:38:33] INFO: Boards get successfully
+[2024-12-11 16:38:33] INFO: Boards get successfully
+[2024-12-11 16:38:35] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:38:35] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:38:35] INFO: Boards get successfully
+[2024-12-11 16:38:35] INFO: Boards get successfully
+[2024-12-11 16:38:40] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:38:40] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:38:40] INFO: Boards get successfully
+[2024-12-11 16:38:40] INFO: Boards get successfully
+[2024-12-11 16:39:05] INFO: Successfull checking data user for login
+[2024-12-11 16:39:05] INFO: Compare hash complete
+[2024-12-11 16:39:05] INFO: Complete create token
+[2024-12-11 16:39:05] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:39:05] INFO: Boards get successfully
+[2024-12-11 16:40:26] INFO: Successfull checking data user for login
+[2024-12-11 16:40:26] INFO: Compare hash complete
+[2024-12-11 16:40:26] INFO: Complete create token
+[2024-12-11 16:40:26] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:40:26] INFO: Boards get successfully
+[2024-12-11 16:41:08] INFO: Successfull checking data user for login
+[2024-12-11 16:41:08] INFO: Compare hash complete
+[2024-12-11 16:41:08] INFO: Complete create token
+[2024-12-11 16:41:09] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:41:09] INFO: Boards get successfully
+[2024-12-11 16:43:20] INFO: Successfull checking data user for login
+[2024-12-11 16:43:20] INFO: Compare hash complete
+[2024-12-11 16:43:20] INFO: Complete create token
+[2024-12-11 16:43:21] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:43:21] INFO: Boards get successfully
+[2024-12-11 16:43:46] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:43:46] INFO: Boards get successfully
+[2024-12-11 16:43:47] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:43:47] INFO: Boards get successfully
+[2024-12-11 16:43:51] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:43:51] INFO: Boards get successfully
+[2024-12-11 16:43:52] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:43:52] INFO: Boards get successfully
+[2024-12-11 16:44:25] INFO: Successfull checking data user for login
+[2024-12-11 16:44:25] INFO: Compare hash complete
+[2024-12-11 16:44:33] INFO: Successfull checking data user for login
+[2024-12-11 16:44:33] INFO: Compare hash complete
+[2024-12-11 16:44:33] INFO: Complete create token
+[2024-12-11 16:44:34] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:44:34] INFO: Boards get successfully
+[2024-12-11 16:45:06] INFO: Successfull checking data user for login
+[2024-12-11 16:45:06] INFO: Compare hash complete
+[2024-12-11 16:45:06] INFO: Complete create token
+[2024-12-11 16:45:06] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:45:06] INFO: Boards get successfully
+[2024-12-11 16:46:09] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:46:09] INFO: Boards get successfully
+[2024-12-11 16:46:22] INFO: Successfull checking data to create board
+[2024-12-11 16:46:22] INFO: created new board successfully
+[2024-12-11 16:46:27] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:46:27] INFO: Boards get successfully
+[2024-12-11 16:49:17] INFO: Successfull checking data user for login
+[2024-12-11 16:49:17] INFO: Compare hash complete
+[2024-12-11 16:49:17] INFO: Complete create token
+[2024-12-11 16:49:17] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:49:17] INFO: Boards get successfully
+[2024-12-11 16:49:31] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:49:31] INFO: Boards get successfully
+[2024-12-11 16:53:42] INFO: Successfull checking data user for login
+[2024-12-11 16:53:42] INFO: Compare hash complete
+[2024-12-11 16:53:42] INFO: Complete create token
+[2024-12-11 16:53:43] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:53:43] INFO: Boards get successfully
+[2024-12-11 16:57:18] INFO: Successfull checking data user for login
+[2024-12-11 16:57:18] INFO: Compare hash complete
+[2024-12-11 16:57:18] INFO: Complete create token
+[2024-12-11 16:57:19] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:57:19] INFO: Boards get successfully
+[2024-12-11 16:57:41] INFO: Successfull checking data user for login
+[2024-12-11 16:57:41] INFO: Compare hash complete
+[2024-12-11 16:57:41] INFO: Complete create token
+[2024-12-11 16:57:41] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:57:41] INFO: Boards get successfully
+[2024-12-11 16:58:49] INFO: Successfull checking data user for login
+[2024-12-11 16:58:49] INFO: Compare hash complete
+[2024-12-11 16:58:49] INFO: Complete create token
+[2024-12-11 16:58:50] INFO: Successfull checking data to get board by user id
+[2024-12-11 16:58:50] INFO: Boards get successfully
+[2024-12-11 16:59:08] INFO: Successfull checking data to create board
+[2024-12-11 16:59:21] INFO: Successfull checking data to create board
+[2024-12-11 17:01:11] INFO: Successfull checking data user for login
+[2024-12-11 17:01:11] INFO: Compare hash complete
+[2024-12-11 17:01:11] INFO: Complete create token
+[2024-12-11 17:01:12] INFO: Successfull checking data to get board by user id
+[2024-12-11 17:01:12] INFO: Boards get successfully
+[2024-12-11 17:01:13] INFO: Successfull checking data to create board
+[2024-12-11 17:02:03] INFO: Successfull checking data to create board
+[2024-12-11 17:02:15] INFO: Successfull checking data to create board
+[2024-12-11 17:08:05] INFO: Successfull checking data user for login
+[2024-12-11 17:08:05] INFO: Compare hash complete
+[2024-12-11 17:08:05] INFO: Complete create token
+[2024-12-11 17:08:05] INFO: Successfull checking data to get board by user id
+[2024-12-11 17:08:05] INFO: Boards get successfully
+[2024-12-11 17:08:07] INFO: Successfull checking data to create board
+[2024-12-11 17:09:52] INFO: Successfull checking data to create board
+[2024-12-11 17:09:55] INFO: Successfull checking data to create board
+[2024-12-11 17:10:02] INFO: Successfull checking data to create board
+[2024-12-11 17:10:03] INFO: Successfull checking data to create board
+[2024-12-11 17:10:07] INFO: Successfull checking data to create board
+[2024-12-11 17:10:18] INFO: Successfull checking data to create board
+[2024-12-11 17:10:38] INFO: Successfull checking data to create board
+[2024-12-11 17:10:46] INFO: Successfull checking data to create board
+[2024-12-11 17:10:47] INFO: Successfull checking data to create board
+[2024-12-11 17:10:49] INFO: Successfull checking data to create board
+[2024-12-11 17:10:53] INFO: Successfull checking data to create board
+[2024-12-11 17:11:04] INFO: Successfull checking data to create board
+[2024-12-11 17:11:07] INFO: Successfull checking data to create board
+[2024-12-11 17:11:34] INFO: Successfull checking data to create board
+[2024-12-11 17:11:37] INFO: Successfull checking data to create board
+[2024-12-11 17:11:38] INFO: Successfull checking data to create board
+[2024-12-11 17:11:52] INFO: Successfull checking data to create board
+[2024-12-11 17:11:53] WARN: No token provided
+[2024-12-11 17:12:42] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 17:12:43] WARN: No token provided
+[2024-12-11 17:15:26] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 17:15:28] INFO: Successfull checking data to create board
+[2024-12-11 17:15:28] INFO: Successfull checking data to update board
+[2024-12-11 17:15:30] INFO: Successfull checking data to update board
+[2024-12-11 17:15:32] INFO: Successfull checking data to update board
+[2024-12-11 17:15:32] INFO: Successfull checking data to update board
+[2024-12-11 17:15:33] INFO: Successfull checking data to update board
+[2024-12-11 17:15:50] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 17:15:57] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 17:15:59] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 17:16:04] INFO: Successfull checking data to update board
+[2024-12-11 17:16:24] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 17:16:29] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 17:16:32] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 17:16:41] INFO: Successfull checking data to update board
+[2024-12-11 17:17:45] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 17:17:49] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 17:17:55] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 17:17:59] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net
+[2024-12-11 17:18:05] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 17:18:08] INFO: MongoDB connected: cluster0-shard-00-00.ekkw3.mongodb.net
+[2024-12-11 17:18:08] INFO: Successfull checking data to update board
+[2024-12-11 17:18:08] INFO: No fields were updated
+[2024-12-11 17:18:18] INFO: MongoDB connected: cluster0-shard-00-01.ekkw3.mongodb.net
+[2024-12-11 17:18:46] INFO: Successfull checking data to create board
+[2024-12-11 17:19:09] INFO: Successfull checking data to update board
+[2024-12-11 17:19:09] INFO: Successfull checking data to create board
+[2024-12-11 17:19:15] INFO: Successfull checking data to create board
+[2024-12-11 19:02:25] INFO: MongoDB connected: cluster0-shard-00-02.ekkw3.mongodb.net

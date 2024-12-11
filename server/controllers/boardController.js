@@ -26,7 +26,7 @@ async function CreateBoard(req, res) {
         user.boards.push({ board_id: newBoard._id, role: "ADMIN" });
         await user.save();
         logger.info("created new board successfully");
-        
+
         return sendSuccess(res, "Create board success", newBoard._id);
     } catch (error) {
         logger.error(`Error with create board : ${error}`);
@@ -156,16 +156,11 @@ async function UpdateBoard(req, res) {
 
         // Lưu thay đổi vào CSDL
         const updatedBoard = await board.save();
-        // await updatedBoard
-        //     .populate("created_by", "user_full_name user_email")
-        //     .populate(
-        //         "board_collaborators.board_collaborator_id",
-        //         "user_full_name user_email"
-        //     )
-        //     .populate("board_lists.list_id")
-        //     .execPopulate();
 
         // Trả về thành công
+
+        logger.info("updated board successfully");
+
         return sendSuccess(res, "Board updated successfully", updatedBoard);
     } catch (error) {
         logger.error(`Error with UpdateBoard: ${error}`);
@@ -207,4 +202,16 @@ async function DeleteBoard(req, res) {
     }
 }
 
-module.exports = { CreateBoard, GetBoard, UpdateBoard, DeleteBoard };
+async function GetAllBoardByUserId(req, res) {
+    try {
+        const { user_id } = req.body;   
+        const boards = await Board.find({ created_by: user_id });
+        logger.info(`Boards get successfully`);
+        return sendSuccess(res, "Get all boards by user id success", boards);
+    } catch (error) {
+        logger.error(`Error with GetAllBoardByUserId: ${error}`);
+        return sendError(res, 500, "Internal Server Error", { details: error });
+    }
+}
+
+module.exports = { CreateBoard, GetBoard, UpdateBoard, DeleteBoard, GetAllBoardByUserId };

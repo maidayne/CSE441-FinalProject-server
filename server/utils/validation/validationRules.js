@@ -49,7 +49,7 @@ const validationRules = {
         checkMessage: "Invite user to board by email",
         requiredFields: ["board_id", "user_email", "checkMessage"]
     },
-    
+
     // Board middleware validate
     createBoard: {
         checkMessage: "Create new board",
@@ -76,6 +76,22 @@ const validationRules = {
     deleteBoard: {
         checkMessage: "Delete board",
         requiredFields: ["board_id"]
+    },
+
+    // getBoardsByUserId
+    getBoardsByUserId: {
+        checkMessage: "Get boards by user id",
+        requiredFields: ["user_id", "checkMessage"]
+    },
+
+    // User middle validate
+    getUserProfile: {
+        checkMessage: "Get user profile",
+        requiredFields: ["user_id", "checkMessage"],
+    },
+    updateUserProfile: {
+        checkMessage: "Update user info",
+        requiredFields: ["user_id", "user_update_details"],
     },
 };
 

@@ -8,6 +8,8 @@ const { connectDb } = require("./configs/dbConfig");
 const authRouter = require("./routes/authRoutes");
 const boardRouter = require("./routes/boardRoutes");
 
+const userRouter = require("./routes/userRoutes");
+
 dotenv.config();
 
 const app = express();
@@ -25,6 +27,8 @@ connectDb();
 // Routes
 app.use("/api/auth", authRouter);
 app.use("/api/board", boardRouter);
+app.use("/api/user", userRouter);
+
 
 // Listen
 app.listen(port, function () {
