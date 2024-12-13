@@ -56,6 +56,37 @@ async function validateUpdateUserProfile(req, res, next) {
   }
 }
 
+async function validateGetBoardsInforByUserId(req, res, next) {
+  const token = await getTokenFromHeaders(req);
+  const checkToken = await VerifiedToken(token);
+  if (!checkToken) {
+    logger.info("Invalid token");
+    return res.status(401).json({ error: "Invalid token" });
+  }
+  const userRequestGetBoardsInforByUserId = req.body;
+  const rules = validationRules["getBasicBoardsInfoByUserId"];
+  const resultCheckingData = await validateFields(
+    userRequestGetBoardsInforByUserId,
+    rules
+  );
+  if (resultCheckingData.valid == true) {
+    req.body.user_id = checkToken.id;
+    logger.info(
+      "Successfull checking data user for getting boards infor by user id"
+    );
+    next();
+  } else {
+    logger.info(
+      `Error checking data user for getting boards infor by user id: ${resultCheckingData.error}`
+    );
+    return sendError(res, 400, "Error checking data", {
+      Error: resultCheckingData.error,
+    });
+  }
+}
 
-
-module.exports = { validateGetUserProfile, validateUpdateUserProfile };
+module.exports = {
+  validateGetUserProfile,
+  validateUpdateUserProfile,
+  validateGetBoardsInforByUserId,
+};

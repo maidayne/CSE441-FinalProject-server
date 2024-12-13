@@ -1,4 +1,5 @@
 const User = require("../models/User");
+const Board = require("../models/Board");
 const logger = require("../utils/logger");
 const { sendSuccess, sendError } = require("../utils/response");
 
@@ -84,4 +85,40 @@ async function UpdateUserProfile(req, res) {
   }
 }
 
-module.exports = { GetUserProfile, UpdateUserProfile };
+async function GetBoardsBasicInfoByUserId(req, res) {
+  try {
+    const { user_id } = req.body;
+    if (!user_id) {
+      logger.error("User ID is missing");
+      return sendError(res, 400, "User ID is required");
+    }
+
+    const totalBoardsCount = await Board.countDocuments({
+      created_by: user_id,
+    });
+    const completedBoardsCount = await Board.countDocuments({
+      created_by: user_id,
+      isCompleted: true,
+    });
+
+    logger.info("Get information complete");
+    return sendSuccess(res, "Information retrieved successfully", {
+      totalBoards: totalBoardsCount,
+      completedBoards: completedBoardsCount,
+    });
+  } catch (error) {
+    logger.error(`Error in GetBoardsBasicInfoByUserId: ${error.message}`, {
+      stack: error.stack,
+    });
+
+    return sendError(res, 500, "Internal Server Error", {
+      details: error.message,
+    });
+  }
+}
+
+module.exports = {
+  GetUserProfile,
+  UpdateUserProfile,
+  GetBoardsBasicInfoByUserId,
+};
