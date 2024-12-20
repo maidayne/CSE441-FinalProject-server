@@ -1,4 +1,3 @@
-// utils/response.js
 
 /**
  * Gửi response thành công

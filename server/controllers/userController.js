@@ -55,7 +55,6 @@ async function UpdateUserProfile(req, res) {
       }
     }
 
-    // Nếu không có thay đổi, trả về lỗi
     if (!hasUpdated) {
       return sendError(res, 400, "No fields were updated", {
         details: "Nothing to update, values are the same",

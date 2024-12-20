@@ -57,7 +57,6 @@ async function GetBoard(req, res) {
             .populate("created_by", "user_full_name user_email");
         // .populate("board_lists.list_id");
 
-        // Kiểm tra nếu không tìm thấy bảng
         if (!board) {
             return sendError(res, 404, "Board not found", {
                 details: "The requested board does not exist"
@@ -81,10 +80,8 @@ async function GetBoard(req, res) {
             });
         }
 
-        // Nếu đạt một trong hai điều kiện trên, trả về dữ liệu bảng
         sendSuccess(res, "Successfully retrieved board data", board);
     } catch (error) {
-        // Xử lý lỗi hệ thống
         logger.error(`Error with GetBoard: ${error}`);
         sendError(res, 500, "Internal Server Error", {
             details: error.message
@@ -110,10 +107,10 @@ async function UpdateBoard(req, res) {
         const board = await Board.findOne({
             _id: board_id,
             $or: [
-                { created_by: user_id }, // Người tạo
+                { created_by: user_id }, 
                 {
-                    "board_collaborators.board_collaborator_id": user_id, // Cộng tác viên
-                    "board_collaborators.board_collaborator_role": "EDITOR" // Chỉ "EDITOR" mới có quyền chỉnh sửa
+                    "board_collaborators.board_collaborator_id": user_id, 
+                    "board_collaborators.board_collaborator_role": "EDITOR" 
                 }
             ]
         });
@@ -157,8 +154,6 @@ async function UpdateBoard(req, res) {
         // Lưu thay đổi vào CSDL
         const updatedBoard = await board.save();
 
-        // Trả về thành công
-
         logger.info("updated board successfully");
 
         return sendSuccess(res, "Board updated successfully", updatedBoard);
@@ -174,10 +169,17 @@ async function DeleteBoard(req, res) {
     try {
         const { board_id, user_id } = req.body;
 
-        // Tìm và xóa bảng chỉ trong một bước
+        const user = await User.findById(user_id);
+        if (!user) {
+            return sendError(res, 404, "User not found", {
+                details: "User does not exist"
+            });
+        }
+
+        // Tìm và xóa bảng
         const deletedBoard = await Board.findOneAndDelete({
             _id: board_id,
-            created_by: user_id // Kiểm tra người tạo
+            created_by: user_id 
         });
 
         // Nếu không tìm thấy bảng, trả về lỗi
@@ -187,12 +189,13 @@ async function DeleteBoard(req, res) {
             });
         }
 
-        // Nếu cần xóa các dữ liệu liên quan, bạn có thể thêm vào đây
-        // Ví dụ: await List.deleteMany({ board_id });
+        user.boards = user.boards.filter(board => board.board_id !== board_id);
+        await user.save();
 
-        // Trả về phản hồi thành công
+        logger.info("deleted board successfully");
+
         return sendSuccess(res, "Board deleted successfully", {
-            board_id: board_id
+            board_id: deletedBoard._id
         });
     } catch (error) {
         logger.error(`Error with DeleteBoard: ${error}`);

@@ -4,7 +4,6 @@ async function validateFields(data, rules) {
             return { valid: false, error: `${field} is required.` };
         }
     }
-
     if (data.checkMessage !== rules.checkMessage) {
         return { valid: false, error: `Wrong message from wrong app` };
     }

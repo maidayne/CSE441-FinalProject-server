@@ -3,8 +3,8 @@ const path = require("path");
 module.exports = {
     level: process.env.LOG_LEVEL || "info", // Mức log (info, error, warn, debug, ...)
     format: {
-        timestamp: true, // Có gắn timestamp hay không
-        timestampFormat: "YYYY-MM-DD HH:mm:ss", // Định dạng timestamp
+        timestamp: true, 
+        timestampFormat: "YYYY-MM-DD HH:mm:ss", 
         json: false // Log ở dạng JSON hay plain text
     },
     transports: {

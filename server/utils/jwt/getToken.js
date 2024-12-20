@@ -24,7 +24,6 @@ async function getTokenFromHeaders(req) {
         const token = parts[1];
         return token;
     } catch (error) {
-        // Log lỗi nếu có
         logger.info("Error get token from header: " + error);
         return null;
     }
